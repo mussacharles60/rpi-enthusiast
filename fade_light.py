@@ -7,7 +7,7 @@ import math
 
 # === GPIO Setup ===
 PWM_PIN = 18
-FREQ = 1000
+FREQ = 5000 # 5 kHz = no visible flicker
 
 GPIO.setmode(GPIO.BCM)
 GPIO.setup(PWM_PIN, GPIO.OUT)
