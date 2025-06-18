@@ -1,3 +1,4 @@
+# sudo /home/projects/light-control/pi_env/bin/python /home/projects/light-control/script-final.py
 import time
 import math
 import vlc
