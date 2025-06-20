@@ -2,7 +2,7 @@ import RPi.GPIO as GPIO
 import time
 
 # === Use GPIO 4 (already configured as OUTPUT)
-LED_PIN = 18
+LED_PIN = 4
 GPIO.setmode(GPIO.BCM)
 GPIO.setup(LED_PIN, GPIO.OUT)
 
